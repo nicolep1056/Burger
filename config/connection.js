@@ -10,9 +10,9 @@ if (process.env.JAWSDB_URL) {
         port: 3306,
         user: "root",
         password: "123Repeater",
-        database: "burgers_db"
-    
-});
+        database: "burgers_db"        
+        });
+    };
 
 connection.connect(function (err) {
     if (err) {
